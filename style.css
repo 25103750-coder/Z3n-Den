@@ -80,11 +80,16 @@ gap:15px;
 }
 
 .navi a{
-color:#ffffff;
+color:white;
 text-decoration:none;
+transition:0.3s;
 font-size:18px;
 padding:8px 14px;
-transition:0.3s;
+text-shadow:
+0 2px 0 #5f94b9,
+0 4px 6px rgba(0,0,0,0.25),
+0 0 8px rgba(255,255,255,0.6)
+
 }
 
 .navi a:hover{
